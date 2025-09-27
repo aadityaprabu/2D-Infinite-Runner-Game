@@ -70,8 +70,8 @@ When hit, the game shows your score and restarts
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aadityaprabu/2D-Infinite-Runner-Game.git
-   cd 2D-Infinite-Runner-Game
+   git clone https://github.com/aadityaprabu/2d-infinite-runner-game.git
+   cd 2d-infinite-runner-game
    ```
 
 2. Install dependencies (Pygame).  
