@@ -1,37 +1,93 @@
-# 2D INFINITE RUNNER GAME
+# 🎮 2D Infinite Runner Game
 
-## DESCRIPTION:
-This project is a tile based endless runner video game implemented by using python's pygame module.
-Pygame is a cross-platform set of Python modules which is used to create video games. It consists of computer graphics and sound libraries designed to be used with the Python programming language.
+A fun **tile-based endless runner game** built with Python’s **Pygame** module.  
+The player controls a cowboy who must avoid obstacles while running endlessly. The game gets more challenging as the distance increases!  
 
-## INSTALLATION:
-### Install pygame in Windows or MacOS
-- Before installing Pygame, Python should be installed in the system, and it is good to have 3.6.1 or above version because it is much friendlier to beginners, and additionally runs faster.
-- Installing through pip: The good way to install Pygame is with the pip tool (which is what python uses to install packages). The command is the following:
+---
 
+## ✨ Features
+- Classic **endless runner mechanics**.  
+- Smooth animations and collision detection.  
+- Increasing **distance counter** as you play.  
+- Game-over screen with **final score display**.  
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.6+**
+- **Pygame** – graphics, game loop, collision, and sound.  
+
+---
+
+## 📦 Installation
+
+### 1. Install Python
+Make sure you have **Python 3.6.1 or above** installed.  
+
+### 2. Install Pygame
+Run one of the following commands:
+
+```bash
+py -m pip install -U pygame --user
 ```
-py -m pip install -U pygame --user  
+or  
+```bash
+python -m pip install pygame
 ```
-or 
-```
-"python directory which you are going to run this game on" pip install pygame   
-```
-- if you still having difficulty please visit the site: [Pygame installation](https://www.javatpoint.com/pygame#:~:text=Pygame%20is%20a%20cross%2Dplatform,Pete%20Shinners%20to%20replace%20PySDL.)
 
- 
-## OBJECTIVE:
+If you face issues, check the [Pygame Installation Guide](https://www.pygame.org/wiki/GettingStarted).  
 
-- The cowboy runs till he gets hit by a bat or a crate
-- The distance increases as the cowboy runs
-- When he gets hit, the game finishes and the distance he ran is displayed
+---
 
-## INSTRUCTION:
-### Press 'P' to start the game
-![](https://github.com/Aadityaprabu002/2D-Infinite-Runner-Game/blob/main/Project%20Description/1.PNG)
-![](https://github.com/Aadityaprabu002/2D-Infinite-Runner-Game/blob/main/Project%20Description/2.PNG)
-### Press '↓' to slide
-![](https://github.com/Aadityaprabu002/2D-Infinite-Runner-Game/blob/main/Project%20Description/3.PNG)
-### Press 'Space bar' to jump
-![](https://github.com/Aadityaprabu002/2D-Infinite-Runner-Game/blob/main/Project%20Description/4.PNG)
-### When hit, the game displays your score and restarts
-![](https://github.com/Aadityaprabu002/2D-Infinite-Runner-Game/blob/main/Project%20Description/5.PNG)
+## 🎯 Objective
+- Control the cowboy to **run as far as possible**.  
+- Avoid obstacles like **bats** and **crates**.  
+- The game ends when you hit an obstacle, showing the distance covered.  
+
+---
+
+## 🎮 Controls & Instructions
+
+### ▶️ Start Game  
+Press **P** to start  
+![](Project%20Description/1.PNG)  
+![](Project%20Description/2.PNG)  
+
+### ⬇️ Slide  
+Press **↓** to slide  
+![](Project%20Description/3.PNG)  
+
+### ⬆️ Jump  
+Press **Spacebar** to jump  
+![](Project%20Description/4.PNG)  
+
+### 💀 Game Over  
+When hit, the game shows your score and restarts  
+![](Project%20Description/5.PNG)  
+
+---
+
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aadityaprabu/2D-Infinite-Runner-Game.git
+   cd 2D-Infinite-Runner-Game
+   ```
+
+2. Install dependencies (Pygame).  
+
+3. Run the game:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 👨‍💻 Author
+**Aaditya Prabu**  
+- GitHub: [@aadityaprabu](https://github.com/aadityaprabu)
